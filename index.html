@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="far" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List / Timer JavaScript</title>
+  <link href="./font/fontawesome-free-6.4.2-web/css/all.min.css" rel="stylesheet">
+  <script src="https://files.free-learn.ir/Tryitself/javascript/intro/files/sweetalert2.js"></script>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+	<div class="container">
+		<div class="addTask">
+			<input type="text" placeholder="کارهات اینجا بنویس">
+			<button>+</button>
+		</div>
+
+		<ol class="notCompleted">
+			<h3>  کارهای انجام نشده :</h3>
+		</ol>
+
+		<ol class="Completed">
+			<h3 >کارهای انجام شده :</h3>
+			
+		</ol>
+	</div>
+	<button id="donDay" class="btn"> پایان روز</button>
+
+    <div id="containertime">
+		<a id="btnclosed" class="btn"><i class="fa-solid fa-xmark"></i></a>
+		<p> لطفا تا پایان تایمر از صفحه خارج نشوید !!</p>
+
+		<div class="timer">
+		<div class="circle" dir="ltr">
+        <input id="hour" type="number" max="99" min="0" value="00" class="time"><p id="p1" class="semicolon">:</p><input id="minute" type="number" max="60" min="0" value="00" class="time"><p id="p2" class="semicolon">:</p><input id="sec" type="number" max="60" min="0" value="00" class="time">
+	</div>
+</div>
+<div class="btnstyle">	
+	<button id="start" class="btn"><i class="fa-solid fa-play" title="شروع"></i></button>
+	<button id="reset" class="btn"><i class="fa-solid fa-rotate-right" title="شروع مجدد"></i></button>
+</div>
+<button id="save" class="btn"> تمام</button>
+
+
+
+</div>
+	<script src="./script.js"></script>
+	
+</body>
+
+</html>
